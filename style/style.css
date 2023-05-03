@@ -1,4 +1,21 @@
+*{
+    padding: .1rem;
+    margin: 0;
+}
+
 #container {
     display: flex;
     flex-direction: column;
+}
+
+main{
+    display: flex;
+}
+
+.left{
+    width: 60%;
+}
+
+.right{
+    width: 40%;
 }

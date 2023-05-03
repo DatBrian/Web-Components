@@ -7,17 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="style/style.css">
+
     <script src="main.js" defer type="module"></script>
 </head>
 
 <body>
-    <main id="container">
+    <div id="container">
         <my-header></my-header>
-        <my-section></my-section>
-        <my-nav></my-nav>
-        <my-selection></my-selection>
+        <main>
+            <div class="left">
+                <my-section></my-section>
+                <my-selection></my-selection>
+            </div>
+            <div class="right">
+                <my-nav></my-nav>
+            </div>
+        </main>
         <my-footer></my-footer>
-    </main>
+    </div>
 
 </body>
 
